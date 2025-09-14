@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+section h2 {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+\\
+/* General */
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+/* Profile Card */
+.bio-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.bio-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border: 4px solid #0d6efd;
+}
+
+.bio-text {
+  text-align: justify;
+  font-size: 0.95rem;
+}
+
+/* Education */
+.edu-card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.edu-icon {
+  font-size: 2.2rem;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
